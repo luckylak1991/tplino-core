@@ -2,7 +2,7 @@ Getting Started
 ===============
 
 Clone tplino-core
-git clone git@git.tpip.net:tplino-core
+git clone this repository
 
 Initialize build enviroments in tplino-core 
 (initialize it for every shell, that add bitbake and other yocto tools in your PATH )
