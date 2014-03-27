@@ -1,16 +1,17 @@
-OpenEmbedded-Core
-=================
+Getting Started
+===============
 
-OpenEmbedded-Core is a layer containing the core metadata for current versions
-of OpenEmbedded. It is distro-less (can build a functional image with
-DISTRO = "") and contains only emulated machine support.
+Clone tplino-core
+git clone this repository
 
-For information about OpenEmbedded, see the OpenEmbedded website:
-    http://www.openembedded.org/
+Initialize build enviroments in tplino-core 
+(initialize it for every shell, that add bitbake and other yocto tools in your PATH )
+. ./oe-init-build-env <PATH>
 
-The Yocto Project has extensive documentation about OE including a reference manual
-which can be found at:
-    http://yoctoproject.org/documentation
+For perfomance, change the number of cores and threads in conf/local.conf
+
+Add your new layer to conf/bblayers.conf:
+/usr/src/disk/path_to_your_meta_layer/tplino-meta-tposs
 
 
 Building Packages
@@ -23,3 +24,11 @@ variables. This should be done as "./oe-init-build-env builddir"
 
 Building An Image
 =================
+To test, that it working, try to build an image: 
+bitbake core-image-tplino
+
+To test, run
+runqemu qemux86 core-image-tposs serial
+
+Documentation http://www.yoctoproject.org/docs/current/dev-manual/dev-manual.html
+
