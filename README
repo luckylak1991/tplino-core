@@ -13,10 +13,22 @@ For perfomance, change the number of cores and threads in conf/local.conf
 Add your new layer to conf/bblayers.conf:
 /usr/src/disk/path_to_your_meta_layer/tplino-meta-tposs
 
+
+Building Packages
+=================
+
+To build packages first you need to setup your enviroment by sourcing
+the file *oe-init-build-env* which will setup a number enviroment
+variables. This should be done as "./oe-init-build-env builddir"
+
+
+Building An Image
+=================
 To test, that it working, try to build an image: 
 bitbake core-image-tplino
 
 To test, run
-runqemu qemux86 core-image-tposs serial
+runqemu qemux86 core-image-tplino serial
 
 Documentation http://www.yoctoproject.org/docs/current/dev-manual/dev-manual.html
+
