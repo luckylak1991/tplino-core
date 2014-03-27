@@ -13,3 +13,13 @@ which can be found at:
     http://yoctoproject.org/documentation
 
 
+Building Packages
+=================
+
+To build packages first you need to setup your enviroment by sourcing
+the file *oe-init-build-env* which will setup a number enviroment
+variables. This should be done as "./oe-init-build-env builddir"
+
+
+Building An Image
+=================
