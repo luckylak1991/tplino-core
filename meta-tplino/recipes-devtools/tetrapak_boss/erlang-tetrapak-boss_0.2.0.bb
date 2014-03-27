@@ -6,7 +6,7 @@ LIC_FILES_CHKSUM = "file://README.md;md5=a2a1073b572c6d211c2062a7d529fec5"
 SRCREV="8bdcc54f09ca33eb16727667584892fac11db44b"
 PR = "r4"
 
-SRC_URI = "git://git@git.tpip.net/tetrapak_boss.git;protocol=ssh"
+SRC_URI = "git://github.com/lveforeverxtetrapak_boss.git;protocol=ssh"
 
 S = "${WORKDIR}/git"
 

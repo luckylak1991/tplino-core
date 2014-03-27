@@ -25,6 +25,7 @@ variables. This should be done as "./oe-init-build-env builddir"
 Building An Image
 =================
 To test, that it working, try to build an image: 
+NOTE: This may take a whil
 bitbake core-image-tplino
 
 To test, run

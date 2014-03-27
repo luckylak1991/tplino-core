@@ -6,7 +6,7 @@ LIC_FILES_CHKSUM = "file://src/enit.erl;beginline=1;endline=19;md5=fc016e255103f
 SRCREV = "8dedb9714f0238fe591f77eceab007e925bc5889"
 PR = "r1"
 
-SRC_URI = "git://git@git.tpip.net/enit.git;protocol=ssh"
+SRC_URI = "git://github.com/travelping/enit.git;protocol=ssh"
 
 S = "${WORKDIR}/git"
 

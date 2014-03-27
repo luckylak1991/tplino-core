@@ -6,7 +6,7 @@ LIC_FILES_CHKSUM = "file://README.md;md5=34e100fba47e6985909b431e17b02d10"
 SRCREV = "ec01b43c28ff50c78dff28fd0f048f5d7ae978c7"
 PR = "r1"
 
-SRC_URI = "git://git@git.tpip.net/boss_db;protocol=ssh \
+SRC_URI = "git://github.com/ChicagoBoss/boss_db;protocol=ssh \
            file://remove_riak.patch;apply=yes"
 
 S = "${WORKDIR}/git"

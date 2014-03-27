@@ -6,7 +6,7 @@ LIC_FILES_CHKSUM = "file://src/jaderl.erl;md5=7a9e7abea03db1447e8f7f69595a5f56"
 SRCREV="536a66e5c9c5979d08e9c85888470883bd464a31"
 PR = "r1"
 
-SRC_URI = "git://git@git.tpip.net/jaderl.git;protocol=ssh"
+SRC_URI = "git://github.com/graeme-defty/jaderl.git;protocol=ssh"
 
 S = "${WORKDIR}/git"
 

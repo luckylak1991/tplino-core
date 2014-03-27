@@ -4,7 +4,7 @@ LICENSE = "MIT"
 
 PR = "r1"
 
-SRC_URI = "git://git@git.tpip.net/enit.git;protocol=ssh"
+SRC_URI = "git://github.com/travelping/enit.git;protocol=ssh"
 
 S = "${WORKDIR}/git"
 

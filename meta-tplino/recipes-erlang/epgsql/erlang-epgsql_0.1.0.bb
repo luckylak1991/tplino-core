@@ -7,7 +7,7 @@ SRCREV="67b10832c57c6aeba271a6ab4fbc020163813266"
 PR = "r2"
 
 
-SRC_URI = "git://git@git.tpip.net/epgsql.git;protocol=ssh"
+SRC_URI = "git://github.com/wg/epgsql.git;protocol=ssh"
 
 S = "${WORKDIR}/git"
 

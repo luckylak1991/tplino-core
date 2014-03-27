@@ -8,7 +8,7 @@ PR = "r1"
 
 #erllibs = "${STAGING_DIR_ERLANG_LIBS}:${TETRAPAK_ERL_LIBS}"
 
-SRC_URI = "git://git@git.tpip.net/common_lib.git;protocol=ssh \
+SRC_URI = "git://github.com/iamaleksey/common_lib.git;protocol=ssh \
            file://tetrapakize.patch;apply=yes"
 
 S = "${WORKDIR}/git"

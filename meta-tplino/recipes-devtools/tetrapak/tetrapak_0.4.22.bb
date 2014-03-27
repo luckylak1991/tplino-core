@@ -6,7 +6,7 @@ SRCREV="1d409835ae37fc2028b456a6cd56f2c27fbff57c"
 
 PR = "r1"
 
-SRC_URI = "git://git@git.tpip.net/tetrapak.git;protocol=ssh"
+SRC_URI = "git://github.com/travelping/tetrapak.git;protocol=ssh"
 
 S = "${WORKDIR}/git"
 
