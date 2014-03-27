@@ -28,7 +28,7 @@ To test, that it working, try to build an image:
 bitbake core-image-tplino
 
 To test, run
-runqemu qemux86 core-image-tposs serial
+runqemu qemux86 core-image-tplino serial
 
 Documentation http://www.yoctoproject.org/docs/current/dev-manual/dev-manual.html
 
