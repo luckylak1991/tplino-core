@@ -6,7 +6,7 @@ LIC_FILES_CHKSUM = "file://src/enit.erl;beginline=1;endline=19;md5=fc016e255103f
 SRCREV = "7c6cd11a49cc1dd1ad00324939c22a301860e8af"
 PR = "r1"
 
-SRC_URI = "git://git@git.tpip.net/enit.git;protocol=ssh"
+SRC_URI = "git://github.com/tavelping/enit.git;protocol=ssh"
 
 S = "${WORKDIR}/git"
 

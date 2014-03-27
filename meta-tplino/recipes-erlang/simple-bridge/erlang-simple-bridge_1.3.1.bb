@@ -6,7 +6,7 @@ LIC_FILES_CHKSUM = "file://MIT-LICENSE;md5=da9c49784d0b343ab8f8196dd3880ef4"
 SRCREV="b74f97c68fc5521947ef6b8f2494c448994bef52"
 PR = "r1"
 
-SRC_URI = "git://git@git.tpip.net/simple_bridge.git;protocol=ssh"
+SRC_URI = "git://github.com/nitrogen/simple_bridge.git;protocol=ssh"
 
 S = "${WORKDIR}/git"
 

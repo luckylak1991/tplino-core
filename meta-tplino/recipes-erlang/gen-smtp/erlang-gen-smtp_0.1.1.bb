@@ -6,7 +6,7 @@ SRCREV = "5b62692539ea51c5fb3a033b66a318e7299747f5"
 
 PR = "r1"
 
-SRC_URI = "git://git@git.tpip.net/gen_smtp.git;protocol=ssh"
+SRC_URI = "git://github.com/Vagabond/gen_smtp.git;protocol=ssh"
 
 DEPENDS_append = " erlang-iconv "
 RDEPENDS_${PN}_append = " erlang-iconv "

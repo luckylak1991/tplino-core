@@ -6,7 +6,7 @@ LIC_FILES_CHKSUM = "file://src/hello.erl;beginline=1;endline=19;md5=8af7faa07f26
 SRCREV = "e7f752f6c65a51869f861a1e97953d0156d2f222"
 PR = "r1"
 
-SRC_URI = "git://git@git.tpip.net/hello.git;protocol=ssh"
+SRC_URI = "git://github.com/travelping/hello.git;protocol=ssh"
 
 S = "${WORKDIR}/git"
 

@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://src/emdb.erl;beginline=1;endline=8;md5=8e7aed6247005d
 
 PR = "r2"
 
-SRC_URI = "git://git@git.tpip.net/emdb.git;protocol=ssh"
+SRC_URI = "git://github.com/alephaarchives/emdb.git;protocol=ssh"
 SRCREV="6086085d82e4052b1c8bd8b8f5f02e3e687f7979"
 
 S = "${WORKDIR}/git"

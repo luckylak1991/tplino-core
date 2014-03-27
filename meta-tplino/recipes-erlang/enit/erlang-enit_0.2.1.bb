@@ -6,7 +6,7 @@ LIC_FILES_CHKSUM = "file://src/enit.erl;beginline=1;endline=19;md5=fc016e255103f
 SRCREV = "cf7d5ced27be9c448e5d13497e7bf493cca130e0"
 PR = "r3"
 
-SRC_URI = "git://git@git.tpip.net/enit.git;protocol=ssh"
+SRC_URI = "git://github.com/travelping/enit.git;protocol=ssh"
 
 RDEPENDS_${PN} += "erlang-compiler"
 

@@ -6,7 +6,7 @@ SRCREV="4bd8b751766b00e337333a27e7a9403451a43000"
 
 PR = "r3"
 
-SRC_URI = "git://git@git.tpip.net/poolboy.git;protocol=ssh"
+SRC_URI = "git://github.com/devinus/poolboy.git;protocol=ssh"
 
 S = "${WORKDIR}/git"
 
